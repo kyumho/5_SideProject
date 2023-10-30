@@ -13,9 +13,6 @@ public class QuoteService {
             System.out.print("명령) ");
             Scanner sc = new Scanner(System.in);
             String cmd = sc.nextLine();
-            if (cmd.contains("삭제")) {
-
-            }
             if (cmd.equals("종료")) {
                 break;
             } else if (cmd.equals("등록")) {
